@@ -9,21 +9,37 @@ main {
 
 .sidebar {
     background: lightgreen;
+    display: grid;
+    border: 2px solid black;
+    
 }
 
 .content {
     background: lightpink;
     display: grid;
     grid-template-rows: 50px 1fr;
+    border: 2px solid black;
 }
 
 header {
     background: white;
+    border: 2px solid black;
 }
 
 .features {
     background: turquoise;
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 3fr 3fr 2fr;
 }
 
 .locations {
-    background: lightyellow;  }
+    background: lightyellow;  
+    border: 2px solid black;
+}
+    
+
+div {
+    background: red;
+    border: solid 1px black;
+}
